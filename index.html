@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>NFT</title>
+  <link
+    rel="preload"
+    href="fonts/InterRegular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/InterMedium.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/InterSemiBold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/GTWalsheimPro-Medium.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="container header__container">
+    <a href="#" class="logo">
+      <img
+        loading="lazy"
+        src="./img/logo.svg"
+        class="image"
+        width="128"
+        height="55"
+        alt="Логотип NFT"
+      />
+    </a>
+    <nav class="nav" title="Главное меню" data-menu>
+      <ul class="list-reset nav__list">
+        <li class="nav__item">
+          <a href="#hero" class="nav__link" data-menu-item data-scroll
+            >Главная</a
+          >
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link" data-menu-item data-scroll
+            >Что даст обучение</a
+          >
+        </li>
+        <li class="nav__item">
+          <a class="header__btn" href="#">Личный кабинет</a>
+        </li>
+      </ul>
+      <button
+        class="btn-reset button--close"
+        aria-label="Закрыть"
+        data-menu-close
+      ></button>
+    </nav>
+    <div class="block block-6"></div>
+    <div class="burger-bcg"></div>
+    <button
+      class="burger"
+      aria-label="Открыть меню"
+      aria-expanded="false"
+      data-burger
+    >
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="hero" id="hero" data-menu-overlay>
+  <div class="container hero__container">
+    <div class="hero__box box">
+      <h1 class="box__title">
+        Не упусти возможность войти в <span>прибыльную нишу</span>
+      </h1>
+      <p class="box__descr">
+        Получи все нужные навыки для заработка на NFT всего за 28 дней!
+      </p>
+      <button class="button btn-reset hero__button" data-graph-path="modal">
+        Начать зарабатывать на NFT
+      </button>
+    </div>
+    <div class="hero__image">
+      <img src="img/hero-man.png" alt="Картинка зароботка" />
+    </div>
+
+    <div class="graph-modal">
+      <div
+        class="graph-modal__container"
+        role="dialog"
+        aria-modal="true"
+        data-graph-target="modal"
+      >
+        <button
+          class="btn-reset js-modal-close graph-modal__close modal__close"
+          aria-label="Закрыть модальное окно"
+        >
+          <img src="./img/close.svg" alt="Закрыть" />
+        </button>
+        <div class="graph-modal__content modal">
+          <h1 class="modal__title">Начни прямо сейчас!</h1>
+          <p class="modal__descr">
+            Получи все нужные навыки для заработка на NFT всего за 28 дней!
+          </p>
+          <form action="#" class="form">
+            <label class="form__label">
+              <input
+                type="email"
+                name="Email"
+                class="input-reset form__input modal__input"
+                placeholder="Ваш email"
+              />
+            </label>
+            <button class="btn-reset button form__btn modal__btn">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="about" id="about">
+  <div class="container about__container">
+    <article class="training">
+      <h1 class="training__title">Что даст тебе обучение?</h1>
+      <div class="training__box">
+        <div class="training__list">
+          <article class="training__item">
+            <img src="./img/training-1.png" alt="Смайлик" />
+            <p class="training__descr">
+              Откроешь свой первый криптокошелек и научишься с ним работать
+            </p>
+          </article>
+          <article class="training__item">
+            <img src="./img/training-2.png" alt="Смайлик" />
+            <p class="training__descr">
+              Поймёшь, как выбирать правильные дропы
+            </p>
+          </article>
+          <article class="training__item">
+            <img src="./img/training-3.png" alt="Смайлик" />
+            <p class="training__descr">
+              Построишь план по быстрому приумножению заработанных средств
+            </p>
+          </article>
+          <article class="training__item">
+            <img src="./img/training-4.png" alt="Смайлик" />
+            <p class="training__descr">Узнаешь кто такие холдеры и флипперы</p>
+          </article>
+        </div>
+      </div>
+    </article>
+    <div class="block block-1"></div>
+    <div class="block block-2"></div>
+    <div class="block block-3"></div>
+    <div class="block block-4"></div>
+    <div class="block block-5"></div>
+  </div>
+</section>
+
+      </main>
+
+    </div>
+  </body>
+</html>
